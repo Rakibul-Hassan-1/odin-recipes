@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  /* background-image: url("grap.gif"); */
+  background-size: smaller;
+  margin: 100;
+  padding: 50;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container div {
+  background: peachpuff;
+  border: 4px solid brown;
+  height: 300px;
+  flex: 1 1 0%;
+}
+
+/* only div.two is selected here */
+.flex-container .one {
+  flex: 2 1 0%;
+}
+.flex-container .two {
+  flex: 2 1 0%;
+}
+
+img.one {
+  width: 300;
+  height: 300;
+}
+
+/* Second Container */
+.flex-new-container div {
+  background: peachpuff;
+  border: 4px solid brown;
+  height: 300px;
+  padding-bottom: 200px;
+  flex: 1 1 0%;
+}
+
+/* only div.two is selected here */
+.flex-new-container .one {
+  flex: 2 1 0%;
+}
